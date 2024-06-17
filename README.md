@@ -68,6 +68,15 @@ Results and Evaluation
 
 Results and evaluation metrics are provided in the code comments of jobs.ipynb. Evaluate the effectiveness of the duplicate detection method based on precision, recall, and similarity threshold.
 
+Evaluation: MOST EFFICIENT METRIC IS IP METRIC THAT IS SCALAR DOT PRODUCT
+
+Effectiveness: Evaluate based on the number of true duplicates identified.
+Threshold Decision: Start with a threshold of 0.8, adjust based on precision-recall balance.
+Metrics: Use precision, recall, and F1-score to measure effectiveness.
+
+![image](https://github.com/surbhi498/DuplicateJobPostings/assets/62746024/26168e12-e567-44b7-b4e0-d25668a78080)
+
+
 Docker Integration
 The project includes Docker and Docker Compose files (Dockerfile and docker-compose.yml) for containerization, ensuring a reproducible and isolated environment. Follow the instructions in the Usage section to build and run the Docker image.
 
