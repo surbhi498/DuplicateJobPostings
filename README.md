@@ -20,31 +20,37 @@ pip install -r requirements.txt
 
 
 # Installation
-Clone the repository:
 
-git clone https://github.com/arasgungore/job-posting-duplicate-detection.git
+Clone the repository:
+```bash
+git clone https://github.com/surbhi498/DuplicateJobPostings.git
 
 Navigate to the project directory:
 
-cd job-posting-duplicate-detection
-Install dependencies:
+cd DuplicateJobPostings
 
+# Install dependencies:
+
+```bash
 pip install -r requirements.txt
 
+USAGE
+# Docker/Docker Compose Integration
 
-Docker/Docker Compose Integration
 Containerization
 Build the Docker image:
 
 docker build -t job-posting-duplicate-detection .
+
 Docker Compose
+
 If you have multiple services (e.g., a database, a backend service, etc.), define each service in docker-compose.yml and ensure proper networking.
 
 Run the Docker image:
 
 docker-compose up
 
-Results and Evaluation
+# Results and Evaluation
 Results and evaluation metrics are provided in the code comments of jobs.ipynb. Evaluate the effectiveness of the duplicate detection method based on precision, recall, and similarity threshold.
 
 Docker Integration
