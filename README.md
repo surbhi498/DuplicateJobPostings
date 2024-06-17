@@ -75,6 +75,14 @@ Video Demo
 ----------
 
 Watch the demo video for a quick overview of the project.
+## Video Demo
+
+Watch the demo video for a quick overview of the project:
+
+[![Demo Video](https://img.youtube.com/vi/1ru2YxvsX2E/0.jpg)](https://youtu.be/1ru2YxvsX2E)
+
+Click on the image above to watch the demo.
+
 
 Contributing
 ------------
